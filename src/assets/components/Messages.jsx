@@ -1,9 +1,10 @@
-import React from 'react'
+
 import Buttons from './Buttons'
 import "./styles/Message.css"
 
 
-const Message = ({quote, handleNewQuote}) =>{
+
+const Messages = ({quote, handleNewQuote}) =>{
   return (
     <section className='containerInfo'>
     <h1 className='container__title'>Galletas De La Fortuna</h1>
@@ -20,4 +21,4 @@ const Message = ({quote, handleNewQuote}) =>{
   )
 }
 
-export default Message
+export default Messages
